@@ -35,8 +35,10 @@ events.out.tfevents.*
 
 # Data folders (optional: only if not to be versioned)
 data/
+data_v1/
+data_v2/
 new_data/
-new_data_v1/
+# new_data_v1/
 outputs/
 outputs_v1/
 models/
