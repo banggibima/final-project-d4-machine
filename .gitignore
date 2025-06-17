@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Model files and checkpoints
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Data folders (optional: only if not to be versioned)
+data/
+new_data/
+new_data_v1/
+outputs/
+outputs_v1/
+models/
+models_v1/
+results/
+runs/
+
+# Augmented or generated files
+*.jpg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.tif
+*.webp
+
+# Plot outputs
+*.svg
+*.pdf
+*.eps
+
+# System files
+.DS_Store
+Thumbs.db
